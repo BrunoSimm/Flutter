@@ -104,6 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
+      /*
       bottomNavigationBar: BottomNavigationBar(items: [
         BottomNavigationBarItem(
           icon: Icon(Icons.monetization_on),
@@ -117,7 +118,7 @@ class _MyHomePageState extends State<MyHomePage> {
           icon: Icon(Icons.person),
           label: "Minha Conta",
         ),
-      ]),
+      ]),*/
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           _openTransactionFormModal(context);
